@@ -1,0 +1,95 @@
+#!/bin/bash
+#Boolean Expression(True and False)
+print("Boolean Expressions")
+bool1=False
+bool2=3*3==9
+bool3=8<10
+
+print(bool1,bool2,bool3)
+print(type(9))
+#Relation and Boolean Operators
+gt=9>8
+lt=8<9
+print(9<8) and (8<9)
+print(20>9) or (8>2)
+
+--------------------------------------------
+
+#!/bin/bash
+
+print( " Here is an example of a function ")
+
+def who_am_i():
+        name="Alex"
+        age=2
+        print( " Hi I'm " + name + " and I'm " + str(age))
+who_am_i()
+def nl():
+        print('\n')
+print( "ho")
+nl()
+#Adding Parameters
+def pup(num):
+        print(num + 645)
+pup(90)
+#Multiple Parameters
+def mut(l,r):
+        print(l*r)
+mut(9,8)
+#Adding
+def add(u,i):
+        print(u+i)
+add(9,89)
+#Subtraction
+def sub(u,s):
+        print(u-s)
+sub(7,9)
+#Sqaure Root
+def squ_rot(x):
+        print(x**.5)
+squ_rot(89)
+---------------------------------
+#!/bin/python3
+
+#Math
+
+print(50+50) #add
+print(50-50) #subtract 
+print(50/50) #divide
+print(50*50) #multiply
+print(50**2) #exponents
+print(50%6) #leftover # after division
+print(50//6) #answer with no remainders
+-------------------------------------------
+#!/bin/bash
+
+#Variables and Methods 
+
+quote="War is Peacful"
+
+print(quote)
+
+print(quote.upper()) #makes the quote uppercase
+print(quote.lower()) #makes the quote lowercase
+print(quote.title()) #upprecases the first letter of each word
+print(len(quote)) #prints the amount of letters in the quote
+
+name="Alex"
+age=30
+gpa=1.2
+m=1000000000
+w="a millionaire"
+print(int(age))
+print(" I'm " + name + " and I'm " + w + " with " + str(m) + " dollars ")
+
+
+
+
+
+
+
+
+
+
+
+
